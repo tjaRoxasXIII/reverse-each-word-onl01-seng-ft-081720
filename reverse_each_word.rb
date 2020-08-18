@@ -6,6 +6,5 @@ def reverse_each_word(string)
     array[i] = "#{reversal.reverse}"
     i += 1
   end
-  array.join()
-  return array
+  return array.join()
 end
